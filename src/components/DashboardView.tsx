@@ -222,7 +222,7 @@ export function DashboardView({
           </div>
           <div className="mt-3">
             <div className="text-2xl sm:text-3xl font-black text-white">
-              {latestLog ? latestLog.crew.total : 26}
+              {latestLog ? latestLog.crew.total : 0}
             </div>
             <div className="text-xs text-slate-400 mt-1 flex items-center gap-1">
               <span className="text-amber-400 font-semibold">{dailyLogs.length} field logs</span>
